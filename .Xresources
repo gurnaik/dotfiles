@@ -1,0 +1,192 @@
+Xft.antialias:		true
+Xft.hinting:		true
+Xft.hintstyle:		hintslight
+Xft.rgba:		rgb
+
+xterm*background:	black
+xterm*foreground:	white
+xterm*scrollBar:	true
+xterm*jumpScroll:	true
+xterm*multiScroll:	true
+xterm*faceName:		Inconsolata:pixelsize=16
+xterm*utf8:		2
+
+uxterm*scrollBar:	true
+uxterm*jumpScroll:	true
+uxterm*multiScroll:	true
+uxterm*faceName:	Inconsolata:pixelsize=16
+uxterm*utf8:		2
+
+urxvt.scrollstyle: 	rxvt
+urxvt*background:	black
+urxvt*foreground:	white
+urxvt.font: 		xft:Inconsolata:size=12
+!urxvt.perl-ext-common: 	default,matcher
+urxvt.url-launcher: 	/usr/bin/firefox
+urxvt.matcher.button:  	1
+urxvt.perl-ext-common: 	default,tabbed
+
+rxvt.scrollstyle: 	rxvt
+rxvt*background:	black
+rxvt*foreground:	white
+rxvt.font: 		xft:Inconsolata:size=12
+!rxvt.perl-ext-common: 	default,matcher
+rxvt.url-launcher: 	/usr/bin/firefox
+rxvt.matcher.button:  	1
+rxvt.perl-ext-common: 	default,tabbed
+
+!XClock.Clock.hourColor: white
+!XClock.Clock.minuteColor: white
+!XClock.Clock.secondColor: white
+!XClock.Clock.majorColor: white
+!XClock.Clock.minorColor: white
+!XClock.Clock.background: black
+!XClock.Clock.foreground: white
+!xclock*geometry: +1338+0
+XClock*faceName:	Inconsolata:pixelsize=16
+XClock*chime:	true
+
+Mwm*activeAutoShade: True
+Mwm*iconImageAutoShade: True
+!
+Mwm*matteAutoShade: True
+!
+!
+! Mwm fonts
+Mwm*fontList: -*-Menu-Medium-R-Normal--*-120-*-*-P-*-ISO8859-1
+!
+! Set to Explicit to determine focus by clicking on the window 
+! or border
+! Set to Pointer to determine focus based on the location of 
+! the pointer
+Mwm*keyboardFocusPolicy: Explicit
+!
+! Policy when the window with focus is minimized or removed
+! if focuspolicy is explicit, set to true to give focus to
+! the window with previous focus
+Mwm*autoKeyFocus: True
+!
+! Policy when the window with focus is raised
+! if focuspolicy is explicit, set to true to give focus to
+! the window that is raised
+Mwm*raiseKeyFocus: True
+!
+! if focuspolicy is explicit, set to true to give a window focus
+! when it is restored from an icon
+Mwm*deiconifyKeyFocus: True
+!
+! Set to True to raise a window when it is given focus
+! Set to False to keep the stacking order the same when a window
+! is given focus
+Mwm*focusAutoRaise: True
+!
+! if focuspolicy is explicit,
+! set to true to give input focus to a window when it is mapped
+Mwm*startupKeyFocus: True
+!
+! Set to True to place and size windows interactively
+! false to use default placement
+Mwm*interactivePlacement: False
+!
+! Delay time to retry interactive placement if it fails
+Mwm*interPlaceDelay: 1000
+!
+! Number of retries for interactive placement before using default
+! placement
+Mwm*interPlaceRetries: 4
+!
+! This determines default placement of window when there is
+! no specification by the user
+! Set to true to have Mwm stagger the positions of a window
+! from the top left corner
+Mwm*clientAutoPlace: True
+!
+! Set to true to include the border when positioning a window
+! Set to false to exclude the border
+Mwm*positionIsFrame: False
+!
+! Set to true to gray icons in the iconbox
+! when the icons are not in the minimized state
+Mwm*fadeNormalIcon: True
+!
+! Border decorations
+! Set to all for all decorations
+! Set to any of the following to limit decorations:
+!    maximize minimize resizeh border menu title
+! Set to none for no decorations
+Mwm*clientDecoration: all
+!
+! Set to True for compatibility for running XUI applications
+Mwm*useDECMode: True
+!
+! Set to True to display icon box
+! Set to False to displays icons without the icon box
+Mwm*useIconBox: False
+!
+Mwm*iconBoxSBDisplayPolicy:       vertical
+!
+! Icon decorations
+! Set to all or any of the following to control what is
+! displayed with an icon
+! activelabel label image
+Mwm*iconDecoration: activelabel label image
+!
+! Position of Icon box
+! width x height + x position + y position
+Mwm*iconBoxGeometry: 14x1+0+2000
+!
+! Size of resize border
+Mwm*resizeBorderWidth: 10
+!
+! When moving a window,
+! if this is set to True, the entire window will move
+! if this is set to False, an outline will move
+Mwm*moveOpaque: True
+!
+! Set this to True to ignore the appropriate MOD keys for window
+! manager operations depending on the keyboard and language
+Mwm*ignoreModKeys: False
+! Set this to True to always ignore MOD2, MOD3, MOD4 keys for 
+! window ! manager operations regardless of the keyboard and 
+! language
+Mwm*ignoreAllModKeys: False
+!
+Mwm*transientDecoration: Title resize
+Mwm*workspaceMenu: True
+!
+! How to place icons when a window is minimized
+! Set to left top for top of screen left to right
+! Set to left bottom for bottom of screen left to right
+! Set to right top for top of screen right to left
+! Set to right bottom for bottom of screen right to left
+! Set to top left for left of screen top to bottom
+! Set to top right for right of screen top to bottom
+! Set to bottom left for left of screen bottom to top
+! Set to bottom right for right of screen bottom to top
+!Mwm*iconPlacement: Bottom Right
+!
+! Set to True to place icons according to iconPlacement resource
+! Set to False for interactive arrangement
+Mwm*iconAutoPlace: True
+!
+! Set to numbers of pixels between the edge of screen and the
+! icons
+Mwm*iconPlacementMargin: 1
+!
+! Title for icon box
+Mwm*iconBoxTitle: Icon box
+!
+Mwm*restartSettings: True
+!
+! Feedback information
+! options are all or none or 
+! behavior move resize placement quit restart kill
+Mwm*showFeedback:      behavior placement quit restart kill
+!
+! Resize Mwm dialog boxes to fit on screen
+*DXmfitToScreenPolicy:      as_needed
+!
+! Double-click on window menu (on border of window)
+! Set to true to enable double-click on window menu to "close"
+! a window
+Mwm*wMenuButtonClick2: False

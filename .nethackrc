@@ -1,0 +1,14 @@
+OPTIONS=showexp,showscore,time,color,boulder:0,autodig,autoquiver
+#OPTIONS=name:Gaz
+#OPTIONS=pickup_types:$?!/
+OPTIONS=pickup_types:$
+#OPTIONS=lit_corridor
+OPTIONS=menucolors
+SYMBOLS=S_golem:7
+SYMBOLS=S_ghost:8
+MENUCOLOR=" blessed "=yellow
+MENUCOLOR=" holy "=yellow
+MENUCOLOR=" cursed "=orange
+MENUCOLOR=" unholy "=orange
+MENUCOLOR=" cursed .* (being worn)"=orange&underline
+
